@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+		<html>
+		<head>
+		
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Averia+Gruesa+Libre" rel="stylesheet">
+		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+                <link rel="stylesheet" href="Estilos/estilo_Registro.css">
+		
+		<title>Iniciar Sesi&oacuten</title>
+	
+	</head>
+		
+		
+	<body>
+		
+		<div class="login_container">
+		<div class="login_top">
+		
+		<h2 class="login_title">Crea <span> tu cuenta</span></h2>
+	</div>
+	
+    <form class="login_form" method='post' name='form' onSubmit="obtenerDatos(this)">
+	
+	<input type="text" id="Nombre"  name="Nombre" placeholder="Nombre" value=""  required autofocus>
+	<br>
+	<input type="text" name="Apellido" value="" placeholder="Apellido" required>
+	<br>
+        <input type="text" name="Correo" placeholder="Correo" value="" required>
+	<br>
+	<input type="password" name="Contraseña" value="" placeholder="Contrasena" required>
+	<br>
+	<input class="btn_submit" type="submit" value="Acceder">
+	<br>
+	<input class="btn_submitFace" type="button" value="Acceder con Facebook" onclick="capturar()">
+	<br>
+
+        
+        
+</form>
+
+                    
+</div>	
+
+
+            <script src="Codigo/codigo_Registro.js"></script>
+	
+	</body>
+
+	
+	</html>
+	
+	
+	
+	
+	
+	
+	
