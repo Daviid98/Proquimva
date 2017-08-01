@@ -1,0 +1,91 @@
+{
+    "cordova-plugin-geolocation": {
+        "source": {
+            "type": "registry",
+            "id": "https://github.com/apache/cordova-plugin-geolocation.git"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-compat": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-compat@^1.0.0"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-plugin-inappbrowser": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-inappbrowser@1.7.1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "urbanairship-gimbal-bridge-cordova": {
+        "source": {
+            "type": "registry",
+            "id": "urbanairship-gimbal-bridge-cordova"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "urbanairship-cordova": {
+        "source": {
+            "type": "registry",
+            "id": "urbanairship-cordova@>=6.2.0"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "urbanairship-gimbal-sdk-cordova": {
+        "source": {
+            "type": "registry",
+            "id": "https://github.com/urbanairship/cordova-gimbal-sdk"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-universal-links-plugin": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-universal-links-plugin"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-appavailability": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-appavailability"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-device": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-device"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-recentscontrol": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/smcpjames/cordova-plugin-recentscontrol",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-sqlite-storage": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-sqlite-storage"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

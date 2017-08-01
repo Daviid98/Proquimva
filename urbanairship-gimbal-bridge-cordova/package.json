@@ -1,0 +1,113 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "urbanairship-gimbal-bridge-cordova",
+        "scope": null,
+        "escapedName": "urbanairship-gimbal-bridge-cordova",
+        "name": "urbanairship-gimbal-bridge-cordova",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Users\\Daviid\\Desktop\\Phonegrap-projects\\ProquimvaBeta\\node_modules"
+    ]
+  ],
+  "_from": "urbanairship-gimbal-bridge-cordova@latest",
+  "_id": "urbanairship-gimbal-bridge-cordova@2.0.0",
+  "_inCache": true,
+  "_location": "/urbanairship-gimbal-bridge-cordova",
+  "_nodeVersion": "5.0.0",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/urbanairship-gimbal-bridge-cordova-2.0.0.tgz_1475880200024_0.5970794553868473"
+  },
+  "_npmUser": {
+    "name": "rlepinski",
+    "email": "ryan.lepinski@urbanairship.com"
+  },
+  "_npmVersion": "3.3.6",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "urbanairship-gimbal-bridge-cordova",
+    "scope": null,
+    "escapedName": "urbanairship-gimbal-bridge-cordova",
+    "name": "urbanairship-gimbal-bridge-cordova",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/urbanairship-gimbal-bridge-cordova/-/urbanairship-gimbal-bridge-cordova-2.0.0.tgz",
+  "_shasum": "0bde275f285ed0aab26573b3a798b2598288225e",
+  "_shrinkwrap": null,
+  "_spec": "urbanairship-gimbal-bridge-cordova",
+  "_where": "C:\\Users\\Daviid\\Desktop\\Phonegrap-projects\\ProquimvaBeta\\node_modules",
+  "author": {
+    "name": "Urban Airship"
+  },
+  "bugs": {
+    "email": "support@urbanairship.com"
+  },
+  "cordova": {
+    "id": "urbanairship-gimbal-bridge-cordova",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "dependencies": {},
+  "description": "Urban Airship Cordova Gimbal plugin",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "0bde275f285ed0aab26573b3a798b2598288225e",
+    "tarball": "https://registry.npmjs.org/urbanairship-gimbal-bridge-cordova/-/urbanairship-gimbal-bridge-cordova-2.0.0.tgz"
+  },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=5.4.0"
+    },
+    {
+      "name": "cordova-ios",
+      "version": ">=3.9.0"
+    },
+    {
+      "name": "cordova-android",
+      "version": ">=4.1.0"
+    },
+    {
+      "name": "cordova-plugman",
+      "version": ">=4.2.0"
+    }
+  ],
+  "gitHead": "290c2d3059ae41704de6e324c8b6d9fd7390726c",
+  "homepage": "https://github.com/urbanairship/cordova-gimbal-bridge#readme",
+  "keywords": [
+    "cordova",
+    "urbanairship",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "license": "Apache 2.0",
+  "maintainers": [
+    {
+      "name": "rlepinski",
+      "email": "ryan.lepinski@urbanairship.com"
+    }
+  ],
+  "name": "urbanairship-gimbal-bridge-cordova",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/urbanairship/cordova-gimbal-bridge.git"
+  },
+  "scripts": {},
+  "version": "2.0.0"
+}

@@ -1,0 +1,78 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "https://github.com/urbanairship/cordova-gimbal-sdk",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "https://github.com/urbanairship/cordova-gimbal-sdk",
+        "spec": "git+https://github.com/urbanairship/cordova-gimbal-sdk.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:urbanairship/cordova-gimbal-sdk.git",
+          "sshUrl": "git+ssh://git@github.com/urbanairship/cordova-gimbal-sdk.git",
+          "httpsUrl": "git+https://github.com/urbanairship/cordova-gimbal-sdk.git",
+          "gitUrl": "git://github.com/urbanairship/cordova-gimbal-sdk.git",
+          "shortcut": "github:urbanairship/cordova-gimbal-sdk",
+          "directUrl": "https://raw.githubusercontent.com/urbanairship/cordova-gimbal-sdk/master/package.json"
+        }
+      },
+      "C:\\Users\\Daviid\\Desktop\\Phonegrap-projects\\ProquimvaBeta\\node_modules"
+    ]
+  ],
+  "_from": "git+https://github.com/urbanairship/cordova-gimbal-sdk.git",
+  "_id": "ubranairship-cordova-gimbal-sdk@2.0.1",
+  "_inCache": true,
+  "_location": "/ubranairship-cordova-gimbal-sdk",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "https://github.com/urbanairship/cordova-gimbal-sdk",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "https://github.com/urbanairship/cordova-gimbal-sdk",
+    "spec": "git+https://github.com/urbanairship/cordova-gimbal-sdk.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:urbanairship/cordova-gimbal-sdk.git",
+      "sshUrl": "git+ssh://git@github.com/urbanairship/cordova-gimbal-sdk.git",
+      "httpsUrl": "git+https://github.com/urbanairship/cordova-gimbal-sdk.git",
+      "gitUrl": "git://github.com/urbanairship/cordova-gimbal-sdk.git",
+      "shortcut": "github:urbanairship/cordova-gimbal-sdk",
+      "directUrl": "https://raw.githubusercontent.com/urbanairship/cordova-gimbal-sdk/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/urbanairship/cordova-gimbal-sdk.git#39c7314973757048311c7310427c4aea8f5d4aa7",
+  "_shasum": "60f5eb3c59caba6e9e89eff2240e335d1acb2ff3",
+  "_shrinkwrap": null,
+  "_spec": "https://github.com/urbanairship/cordova-gimbal-sdk",
+  "_where": "C:\\Users\\Daviid\\Desktop\\Phonegrap-projects\\ProquimvaBeta\\node_modules",
+  "author": {
+    "name": "Urban Airship"
+  },
+  "bugs": {
+    "url": "https://github.com/urbanairship/cordova-gimbal-sdk/issues"
+  },
+  "dependencies": {},
+  "description": "Cordova plugin to install the Gimbal SDK",
+  "devDependencies": {},
+  "gitHead": "39c7314973757048311c7310427c4aea8f5d4aa7",
+  "homepage": "https://github.com/urbanairship/cordova-gimbal-sdk#readme",
+  "license": "Apache-2.0",
+  "name": "ubranairship-cordova-gimbal-sdk",
+  "optionalDependencies": {},
+  "readme": "# cordova-gimbal\r\n\r\n## Installation\r\n\r\n```xml\r\n\tcordova plugin add https://github.com/urbanairship/cordova-gimbal-sdk\r\n```",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/urbanairship/cordova-gimbal-sdk.git"
+  },
+  "version": "2.0.1"
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="urbanairship-gimbal-sdk-cordova"
+    version="2.0.1">
+
+    <name>Gimbal Plugin</name>
+    <description>Cordova plugin to install the Gimbal SDK</description>
+    <license>Apache 2.0</license>
+    <keywords>gimbal,cordova,urbanairship</keywords>
+    <repo>https://github.com/urbanairship/cordova-gimbal</repo>
+    
+    <engines>
+        <engine name="cordova" version=">=5.4.0" />
+        <engine name="cordova-plugman" version=">=4.2.0" />
+    </engines>
+
+    <!-- ios -->
+    <platform name="ios">
+
+        <!-- Set Usage Description to an empty string -->
+        <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
+            <string></string>
+        </config-file>
+
+        <!-- Gimbal framework -->
+        <framework src="src/ios/Gimbal.framework" custom="true" />
+      
+        <!-- system frameworks -->
+        <framework src="CoreLocation.framework" />
+        <framework src="libz.dylib" />
+    </platform>
+    
+    <!-- android -->
+    <platform name="android">
+		<!-- Gimbal background processes -->
+		<config-file target="AndroidManifest.xml" parent="/manifest/application">
+			<service
+				android:name="com.gimbal.internal.service.GimbalService"
+				android:exported="false" >
+				<intent-filter>
+					<action android:name="$PACKAGE_NAME.service.GIMBAL_SERVICE" />
+				</intent-filter>
+			</service>
+			<receiver
+				android:name="com.gimbal.internal.service.GimbalServiceStartStopReceiver"
+				android:enabled="true" >
+				<intent-filter>
+					<action android:name="android.intent.action.BOOT_COMPLETED" />
+				</intent-filter>
+				<intent-filter>
+					<action android:name="android.intent.action.ACTION_SHUTDOWN" />
+				</intent-filter>
+			</receiver>
+		</config-file>
+		
+		<!-- Permissions -->
+		<config-file target="AndroidManifest.xml" parent="/manifest">
+			<uses-permission android:name="android.permission.INTERNET" />
+			<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+			<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+			<uses-permission android:name="android.permission.WAKE_LOCK" />
+			<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+			<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+			<uses-permission android:name="android.permission.BLUETOOTH" />
+			<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+		</config-file>
+		
+		<!-- Gimbal framework -->
+		<framework src="src/android/gimbal.gradle" custom="true" type="gradleReference"/>
+    </platform>
+</plugin>

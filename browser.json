@@ -1,0 +1,46 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.ProquimvaBeta.neta"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.ProquimvaBeta.neta"
+        },
+        "urbanairship-gimbal-bridge-cordova": {
+            "PACKAGE_NAME": "com.ProquimvaBeta.neta"
+        },
+        "cordova-universal-links-plugin": {
+            "PACKAGE_NAME": "com.ProquimvaBeta.neta"
+        },
+        "cordova-plugin-appavailability": {
+            "PACKAGE_NAME": "com.ProquimvaBeta.neta"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.ProquimvaBeta.neta"
+        },
+        "cordova-plugin-recentscontrol": {
+            "PACKAGE_NAME": "com.ProquimvaBeta.neta"
+        },
+        "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "com.ProquimvaBeta.neta"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.ProquimvaBeta.neta"
+        },
+        "urbanairship-cordova": {
+            "PACKAGE_NAME": "com.ProquimvaBeta.neta"
+        },
+        "urbanairship-gimbal-sdk-cordova": {
+            "PACKAGE_NAME": "com.ProquimvaBeta.neta"
+        }
+    }
+}
