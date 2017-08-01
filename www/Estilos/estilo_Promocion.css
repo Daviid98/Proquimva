@@ -1,0 +1,28 @@
+body{
+ 
+ background: #E8E8E8;
+        height: auto;
+ width: auto;
+ font-family: 'Averia Gruesa Libre', cursive;
+ text-align: right;
+      
+}
+
+h1{
+ 
+ text-align: left;
+ color: #66CDAA;
+ 
+}
+
+p{
+ 
+ text-align: left;
+ border-bottom: 6px solid #66CDAA;
+        background-color: white;
+ border-radius: 8px;
+ height: auto;
+ width: auto;
+ box-shadow: 10px 10px 15px grey;
+ 
+}

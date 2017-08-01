@@ -1,0 +1,116 @@
+*{
+	
+	margin: 0;
+	padding: 0;
+	
+}
+
+html{
+	
+	font-family: 'Averia Gruesa Libre', cursive;
+	
+}
+
+body{
+	
+	background-color: #E8E8E8;
+	border: none;
+	padding: .6rem 0;
+	margin: 1rem 20px .3rem;
+	
+}
+
+h3,h5{
+	
+	color:#66CDAA;
+	
+}
+
+h5:hover{
+	
+	color:#943126;
+	
+}
+
+.btn_seguirConfirmar{
+	
+	border: none;
+	padding: .6rem 0;
+	margin: 1rem 20px .3rem;
+	background-color: #66CDAA;
+	border-radius: 8px;
+	color: white;
+	
+}
+
+.btn_seguirConfirmar:hover{
+	
+	
+	background-color: white;
+	border-radius: 8px;
+	color: #66CDAA;
+	transition: all .4s;
+	
+}
+
+
+input[type=date],[type=radio],[type=time]{
+	
+	margin: .4rem 0;
+	padding: .5rem;
+	border-radius: 8px;
+	border-bottom:solid 0.2rem #E8E8E8;
+	background: white;
+	transition: all .4s;
+	color: #66CDAA;
+	
+}
+
+input[type=date]:focus, [type=radio]:focus, [type=time]:focus {
+	
+	outline: none;
+	border-bottom: solid 0.2rem #E8E8E8;
+	border-radius: 8px;
+	color: #66CDAA;
+	
+	
+}
+
+form{
+	
+	margin: .4rem 0;
+	padding: .5rem;
+	border-radius: 8px;
+	border-bottom:solid 0.2rem #E8E8E8;
+	background: white;
+	transition: all .4s;
+	color: #D0D3D4;
+	
+	
+}
+
+form:hover{
+	
+	outline: none;
+	border-bottom: solid 0.2rem #E8E8E8;
+	border-radius: 8px;
+	color: #66CDAA;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
