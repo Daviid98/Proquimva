@@ -1,0 +1,122 @@
+
+
+body{
+
+	
+    background: #ffffff;
+	font-family: 'Averia Gruesa Libre', cursive;
+ 
+}
+
+h1{
+
+	
+    background-color: #eee;
+	border-radius: 8px;
+	box-shadow: 10px 10px 15px grey;
+	font-family: 'Averia Gruesa Libre', cursive;
+	color: #66CDAA;
+	margin-top:0px;
+                
+
+}
+
+h2{
+
+		font-family: 'Averia Gruesa Libre', cursive;
+        color: #66CDAA;
+        text-align: left;
+				
+                
+
+}
+
+h4{
+
+		font-family: 'Averia Gruesa Libre', cursive;
+        color: #66CDAA;
+        text-align: center;
+				
+                
+
+}
+
+
+.MenuTop{
+	
+	
+	background: #eee;
+	display: flex;
+	flex-direction: column;
+	padding: .5rem .5rem .5rem;
+	text-align: left;
+	border-radius: 8px;
+        bottom: 30px;
+
+	
+}
+
+.MenuBot{
+	
+	
+	background: White;
+	display: flex;
+	flex-direction: column;
+	padding: .5rem .5rem .5rem;
+	text-align: Center;
+	border-radius: 8px;
+
+	
+}
+
+.Paypal{
+	
+	border: none;
+	padding: .6rem 0;
+	margin: 1rem 20px .3rem;
+	background-color: #2E86C1;
+	border-radius: 8px;
+	color: white;
+	
+}
+
+
+.Transferencia_Bancaria{
+	
+	border: none;
+	padding: .6rem 0;
+	margin: 1rem 20px .3rem;
+	background-color: #E9692C;
+	border-radius: 8px;
+	color: white;
+	
+}
+
+.Paypal:hover{
+	
+	
+	background-color: #eee;
+	border-radius: 8px;
+	color: #2E86C1;
+	transition: all .4s;
+	
+}
+
+.Transferencia_Bancaria:hover{
+	
+	
+	background-color: #eee;
+	border-radius: 8px;
+	color: #E9692C;
+	transition: all .4s;
+	
+}
+
+
+
+
+
+
+
+
+

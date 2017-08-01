@@ -1,0 +1,132 @@
+
+	body{
+    
+    background: #eee;
+    font-family: 'Averia Gruesa Libre' ,cursive, bold ;
+    font-size:15px;
+	margin: 1rem 20px .3rem;
+
+}
+
+input[type=text], [type=password], [type=email]{
+	
+	margin: 1rem 20px .3rem;
+	padding: .5rem;
+	border-radius: 8px;
+	border-bottom:solid 0.2rem #E8E8E8;
+	background: white;
+	transition: all .4s;
+	color: #D0D3D4;
+	
+}
+
+input[type=text]:focus, [type=password]:focus, [type=email]:focus {
+	
+	outline: none;
+	border-bottom: solid 0.2rem #E8E8E8;
+	border-radius: 8px;
+	color: black;
+	margin: 1rem 20px .3rem;
+	
+	
+}
+
+p{
+	
+	color: #66CDAA;
+	
+	
+}
+
+
+.btn_Actualizar{
+	
+	border: none;
+	padding: 14px 40px;
+	margin: 1rem 20px .3rem;
+	background-color: #66CDAA;
+	border-radius: 8px;
+	color: white;
+	font-size: 16px;
+	font-family: 'Averia Gruesa Libre' ,cursive, bold ;
+	
+}
+
+.btn_Actualizar:hover{
+	
+	
+	background-color: white;
+	border-radius: 8px;
+	color: #66CDAA;
+	transition: all .4s;
+	
+}
+
+.btn_Direcciones{
+	
+	border: none;
+	padding: 14px 40px;
+	margin: 1rem 20px .3rem;
+	background-color: #E9692C;
+	border-radius: 8px;
+	color: white;
+	font-size: 14px;
+	font-family: 'Averia Gruesa Libre' ,cursive, bold ;
+	
+}
+
+.btn_Direcciones:hover{
+	
+	
+	background-color: white;
+	border-radius: 8px;
+	color: #E9692C;
+	transition: all .4s;
+	
+}
+
+.btn_MisOrdenes{
+	
+	border: none;
+	padding: 14px 40px;
+	margin: 1rem 20px .3rem;
+	background-color: #85C1E9;
+	border-radius: 8px;
+	color: white;
+	font-size: 14px;
+	font-family: 'Averia Gruesa Libre' ,cursive, bold ;
+	
+}
+
+.btn_MisOrdenes:hover{
+	
+	
+	background-color: white;
+	border-radius: 8px;
+	color: #85C1E9;
+	transition: all .4s;
+	
+}
+
+.sesion{
+	color:white;
+        border:none;
+	background-color: #A569BD;
+	border-radius:8px;
+	color:white;
+	margin: 1rem 20px .3rem;
+	padding:.6rem 0;
+	font-size:20px;
+
+}
+
+.sesion:hover{
+	
+	background-color: white;
+        color: #A569BD;
+	
+}
+
+
+
+

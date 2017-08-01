@@ -1,0 +1,60 @@
+
+body{
+ 
+ background: #E8E8E8;
+ font-family: 'Averia Gruesa Libre', cursive;
+ text-align:left;
+
+margin:auto;
+      
+}
+
+h2{
+ 
+
+ color: #66CDAA;
+ 
+ 
+}
+
+
+p{
+
+ text-align: center;
+ border-bottom: 6px solid #66CDAA;
+ background-color: white;
+
+ border-radius: 8px;
+ box-shadow: 10px 10px 15px grey;
+ color: #66CDAA;
+ font-size: 20px;
+ 
+ 
+}
+
+.btn_express,.btn_paquete,.btn_personal{
+
+ border:none;
+ border-top:10px;
+ background-color: #66CDAA;
+ border-radius:7px;
+ color:white;
+ margin-bottom: 23px;
+ margin-top: 23px;
+ padding:.5rem 0;
+ font-size:14px;
+ text-align:center;
+ position:center;
+ top:-50px;
+
+}
+
+.btn_express:hover,.btn_paquete:hover,.btn_personal:hover{
+    
+ border-radius:8px;
+ background-color:white;
+ color:#66CDAA;
+ transition: all .4s;
+
+ 
+}
