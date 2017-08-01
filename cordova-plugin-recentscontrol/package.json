@@ -1,0 +1,36 @@
+{
+  "name": "cordova-plugin-recentscontrol",
+  "version": "1.1.0",
+  "description": "Set the Recents title bar color and label in Android 5.0+",
+  "cordova": {
+    "id": "net.flashpointcs.cordova.recentscontrol",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fpcsjames/cordova-plugin-recentscontrol.git"
+  },
+  "keywords": [
+    "android",
+    "recents",
+    "color",
+    "label",
+    "description",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.7.1"
+    }
+  ],
+  "author": "James M. Joyce, Flashpoint Computer Services, LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fpcsjames/cordova-plugin-recentscontrol/issues"
+  },
+  "homepage": "https://github.com/fpcsjames/cordova-plugin-recentscontrol#readme"
+}
